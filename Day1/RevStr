@@ -1,0 +1,20 @@
+// reverse a string
+
+//1) first method
+/*String reversed = new StringBuilder(s).reverse().toString();
+        
+        // Return the reversed string
+        return reversed;
+*/
+/* 2nd method
+  char ch;
+        String r="";
+        for(int i=0;i<s.length();i++)
+        {
+            ch=s.charAt(i);
+            
+            r=ch+r;
+        }
+       
+        return r;
+*/
